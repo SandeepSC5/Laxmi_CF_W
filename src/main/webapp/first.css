@@ -1,2 +1,6 @@
 @charset "UTF-8";
-
+a {color:white;text-decoration:none;}
+p {font:Bauhaus 93; color:#3b0101; font-size:30px;}
+body {background-color:#faf7de;}
+h1{font-size:50p; color:grey;text-align:center;}
+table{border-color:#ed9b28;background-color:#3b0101;border-radius:15px;height:40px; width:100%;color:white; text-align:center}
