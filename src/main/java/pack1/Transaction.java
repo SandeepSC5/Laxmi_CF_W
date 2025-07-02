@@ -33,7 +33,7 @@ public class Transaction extends HttpServlet
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			//step2
-			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/fund","root", "#tijori@#$80");
+			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/fund","root", "......");
 			
 			String name = request.getParameter("uname");
 			String emi = request.getParameter("emi");
