@@ -49,7 +49,7 @@ public class Logged extends HttpServlet
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			//Step 2
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fund","root", "#tijori@#$80");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fund","root", ".......");
 			
 			String query= "create table fund."+uname+"(date_col date, emi int, loan int);";
 			
